@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/schambers/Coding/cpp/Boilerplate/build/Release",
+  "command": "/usr/bin/c++   -I/home/schambers/Coding/cpp/Boilerplate/include  -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/Boilerplate.dir/src/main.cpp.o -c /home/schambers/Coding/cpp/Boilerplate/src/main.cpp",
+  "file": "/home/schambers/Coding/cpp/Boilerplate/src/main.cpp"
+}
+]

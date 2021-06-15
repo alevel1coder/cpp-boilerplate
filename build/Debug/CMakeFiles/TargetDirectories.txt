@@ -1,0 +1,3 @@
+/home/schambers/Coding/cpp/Boilerplate/build/Debug/CMakeFiles/edit_cache.dir
+/home/schambers/Coding/cpp/Boilerplate/build/Debug/CMakeFiles/rebuild_cache.dir
+/home/schambers/Coding/cpp/Boilerplate/build/Debug/CMakeFiles/Boilerplate.dir
