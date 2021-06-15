@@ -2,7 +2,7 @@
 
 This project is intended to be used as a baseline C++ projects starting point.
 It will contain the code needed to build and run basic C++ projects, and as an
-added bonus, all without a real IDE.
+added bonus (I guess...), all without a real IDE. Vim here we come
 
 ---
 
@@ -24,16 +24,16 @@ executable C++ file
 
 ```Bash
 # Enter build directory
-$ cd build
+$ cd build/<BUILD_TYPE>
 
 # Read CMakeLists.txt and generate native build files
-$ cmake ..
+$ cmake ../..
 
-# Build project and generate executable in bin/ directory
+# Build project and generate executable in bin/<BUILD_TYPE> directory
 $ cmake --build .
 
 # Run the executable
-$ ../bin/PROJECT_NAME_EXECUTABLE
+$ ../bin/<BUILD_TYPE>/PROJECT_NAME_EXECUTABLE
 
 ```
 
@@ -42,7 +42,8 @@ $ ../bin/PROJECT_NAME_EXECUTABLE
 ## Reference Material and Learning
 
 - This absolute legend made a really easy to understand guide for making and
-running C++ projects. Much of this is thanks to the following guide:
+running C++ projects. Much of this (basically all of it right now)
+is thanks to the following guide:
 
 `
 https://dane-bulat.medium.com/vim-setting-up-a-build-system-and-code-completion-for-c-and-c-eb263c0a19a1
